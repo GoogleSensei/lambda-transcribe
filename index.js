@@ -37,7 +37,6 @@ exports.handler = async (event, context, callback) => {
     });
 
     result.text = text;
-    console.log(result);
 
     const response = {
         statusCode: 200,
